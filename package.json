@@ -1,0 +1,15 @@
+{
+  "name": "react-native-android-badge",
+  "description": "A react native wrapper for leolin310148/ShortcutBadger.",
+  "version": "0.1.0",
+  "main": "index.android.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jhen0409/react-native-android-badge.git"
+  },
+  "author": "Jhen <developer@jhen.me>",
+  "homepage": "https://github.com/jhen0409/react-native-android-badge#readme",
+  "peerDependencies": {
+    "react-native": "^0.11.0"
+  }
+}
