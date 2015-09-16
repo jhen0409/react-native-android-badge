@@ -8,7 +8,7 @@ A react native wrapper for [leolin310148/ShortcutBadger](https://github.com/leol
 
 A react-native `PushNotificationIOS` provide setting badge of functions, it belongs to the native iOS support, but Android requires third-party library to do.
 
-## Install & Setup
+## Setup
 
 * install module
 
