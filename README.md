@@ -1,5 +1,7 @@
 # React Native Android Badge
 
+[![NPM version](http://img.shields.io/npm/v/react-native-android-badge.svg?style=flat)](https://www.npmjs.com/package/react-native-android-badge)
+
 A react native wrapper for [leolin310148/ShortcutBadger](https://github.com/leolin310148/ShortcutBadger).
 
 ## Why?
