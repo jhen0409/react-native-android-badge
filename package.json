@@ -8,6 +8,7 @@
     "url": "git@github.com:jhen0409/react-native-android-badge.git"
   },
   "author": "Jhen <developer@jhen.me>",
+  "license": "MIT",
   "homepage": "https://github.com/jhen0409/react-native-android-badge#readme",
   "peerDependencies": {
     "react-native": "^0.11.0"
