@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
     @Override
     public List<NativeModule> createNativeModules(
                                 ReactApplicationContext reactContext) {
-      List<NativeModule> modules = super.createNativeModules(reactContext);
+      List<NativeModule> modules = new ArrayList(super.createNativeModules(reactContext));
 
       modules.add(new BadgeModule(reactContext));
       return modules;
