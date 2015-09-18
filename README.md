@@ -37,23 +37,9 @@ dependencies {
 * register module (in MainActivity.java)
 
 ```java
-import me.jhen.react.BadgeModule;  // <--- import
+import me.jhen.react.BadgePackage;  // <--- import
 
 public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
-  ...
-
-  // create class
-  private class ExampleReactPackage extends MainReactPackage {
-
-    @Override
-    public List<NativeModule> createNativeModules(
-                                ReactApplicationContext reactContext) {
-      List<NativeModule> modules = new ArrayList(super.createNativeModules(reactContext));
-
-      modules.add(new BadgeModule(reactContext));
-      return modules;
-    }
-  }
 
   ......
 
@@ -66,7 +52,8 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
       .setApplication(getApplication())
       .setBundleAssetName("index.android.bundle")
       .setJSMainModuleName("index.android")
-      .addPackage(new ExampleReactPackage())         // <------- here
+      .addPackage(new MainReactPackage())
+      .addPackage(new BadgePackage())      // <------- add package
       .setUseDeveloperSupport(BuildConfig.DEBUG)
       .setInitialLifecycleState(LifecycleState.RESUMED)
       .build();
