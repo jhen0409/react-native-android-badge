@@ -16,7 +16,7 @@ A react-native `PushNotificationIOS` provide setting badge of functions, it belo
 npm i --save react-native-android-badge
 ```
 
-* `android/setting.gradle`
+* `android/settings.gradle`
 
 ```gradle
 ...
