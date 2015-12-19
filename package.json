@@ -11,6 +11,6 @@
   "license": "MIT",
   "homepage": "https://github.com/jhen0409/react-native-android-badge#readme",
   "peerDependencies": {
-    "react-native": "^0.11.0"
+    "react-native": "^0.16.0"
   }
 }
