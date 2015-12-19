@@ -16,12 +16,21 @@ A react-native `PushNotificationIOS` provide setting badge of functions, it belo
 npm i --save react-native-android-badge
 ```
 
+#### Use rnpm link
+
+```
+npm install -g rnpm
+rnpm link react-native-android-badge
+```
+
+#### Manually
+
 * `android/settings.gradle`
 
 ```gradle
 ...
 include ':react-native-android-badge'
-project(':react-native-android-badge').projectDir = new File(settingsDir, '../node_modules/react-native-android-badge')
+project(':react-native-android-badge').projectDir = new File(settingsDir, '../node_modules/react-native-android-badge/android')
 ```
 
 * `android/app/build.gradle`
