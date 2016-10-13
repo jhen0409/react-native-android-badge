@@ -27,6 +27,6 @@ public class BadgeModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void setBadge(int number) {
-    ShortcutBadger.with(this.context).count(number);
+    ShortcutBadger.applyCount(getReactApplicationContext(), number);
   }
 }
