@@ -27,9 +27,12 @@ android {
 
 repositories {
     mavenCentral()
+    maven {
+        url "$projectDir/../../react-native/android"
+    }
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:0.16.+'
+    compile 'com.facebook.react:react-native:+'
     compile 'me.leolin:ShortcutBadger:1.1.+@aar'
 }
